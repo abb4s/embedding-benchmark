@@ -2,13 +2,21 @@ import numpy as np
 from sklearn.preprocessing import normalize
 from math import sqrt
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+
+>>>>>>> bf2c0a0bd2adcde2570a9ca96e3440703bc56b82
 from tqdm import tqdm
 def batched(X,batchsize):
     s=[iter(X)]*batchsize
     return zip(*s)
+<<<<<<< HEAD
 >>>>>>> 47b86f2443a08a87ca1de951af535c96f3f85754
+=======
+
+>>>>>>> bf2c0a0bd2adcde2570a9ca96e3440703bc56b82
 def _cosinDistance(v1,v2):
     return np.dot(v1,v2)/(np.linalg.norm(v1)*np.linalg.norm(v2))
 
@@ -51,7 +59,7 @@ def getKNearBatch(X,model,method,thershold,batchsize):
     # method : Cosine,Euclidean,PairDirection
 
     # for cosine distance :
-    
+
     A=np.array(np.zeros((batchsize,len(V[0]))))
     B=np.array(np.zeros((batchsize,len(V[0]))))
     C=np.array(np.zeros((batchsize,len(V[0]))))
