@@ -10,6 +10,8 @@ I tested this model in analogy and similarity test.
 
 ##analogy result:
 
+first column is category , second column is total number of questions in each category and third column is number of correct answers 
+
 `
 semantic-capitals 4691,3514
 
